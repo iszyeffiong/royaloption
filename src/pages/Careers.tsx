@@ -339,7 +339,7 @@ const Careers = () => {
                       value={formData.phone}
                       onChange={handleInputChange}
                       required
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+1 202-400-8404"
                     />
                   </div>
                 </div>

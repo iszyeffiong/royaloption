@@ -81,12 +81,14 @@ const Home = () => {
             with intellectual and developmental disabilities to live fulfilling, independent lives.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="gold" size="xl" asChild>
+            {/* <Button variant="gold" size="xl" asChild> */}
+           <Button variant="gold" size="xl" asChild className='hover:bg-blue hover:text-primary border-white text-blue'>
+
               <Link to="/services">
                 Our Services <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button variant="outline" size="xl" className="border-white text-white hover:bg-white hover:text-primary">
+            <Button variant="gold" size="xl" asChild className='hover:bg-blue hover:text-primary border-white text-blue'>
               <Link to="/contact">Get Support</Link>
             </Button>
           </div>

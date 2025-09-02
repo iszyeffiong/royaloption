@@ -251,7 +251,7 @@ const Services = () => {
                 Schedule Assessment <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button variant="outline" size="xl" className="border-white text-white hover:bg-white hover:text-primary">
+            <Button variant="gold" size="xl" asChild>
               <Link to="/about">Learn More</Link>
             </Button>
           </div>
