@@ -10,7 +10,7 @@ import Services from "./pages/Services";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import Programs from "./pages/Programs";
+import Programs from "./pages/programs";
 
 const queryClient = new QueryClient();
 
