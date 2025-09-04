@@ -4,7 +4,7 @@ import { ArrowRight, Home as HomeIcon, Heart, Users, Award, Star, Phone, Mail } 
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import heroImage from '@/assets/hero-care.jpg';
-import communityActivitiesImage from '@/assets/community-activities.jpg';
+import communityActivitieImages from '@/assets/communityActivitieImages.jpg';
 import caregiverSupportImage from '@/assets/caregiver-home-support.jpg';
 import FacilitiesGallery from '@/components/FacilitiesGallery';
 
@@ -120,7 +120,7 @@ const Home = () => {
             </div>
             <div>
               <img 
-                src={communityActivitiesImage} 
+                src={communityActivitieImages} 
                 alt="Community activities and support programs" 
                 className="rounded-2xl shadow-premium w-full h-80 object-cover"
               />
