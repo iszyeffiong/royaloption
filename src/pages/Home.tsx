@@ -5,7 +5,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import heroImage from '@/assets/hero-care.png';
 import communityActivitieImages from '@/assets/communityActivitieImages.png';
-import caregiverSupportImage from '@/assets/caregiver-home-support.png';
+import caregiverSupportImage from '@/assets/caregiverhomesupport.png';
 import FacilitiesGallery from '@/components/FacilitiesGallery';
 
 

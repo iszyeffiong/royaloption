@@ -15,8 +15,8 @@ import {
 import { Link } from 'react-router-dom';
 import servicesImage from '@/assets/services-support.png';
 import nursingImage from '@/assets/nursing-support.png';
-import independentLivingImage from '@/assets/independent-living.png';
-import groupHomeImage from '@/assets/group-home-activities.png';
+import independentLivingImage from '@/assets/independentliving.png';
+import groupHomeImage from '@/assets/grouphomeactivities.png';
 
 const Services = () => {
   const mainServices = [

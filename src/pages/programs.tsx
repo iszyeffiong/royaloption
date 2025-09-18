@@ -63,13 +63,13 @@ const Services = () => {
     {
       icon: Heart,
       title: 'Supported Living',
-      image: 'src/assets/caregiver-home-support.png',
+      image: 'src/assets/caregiverhomesupport.png',
       details: [
         'Our Supported Living services incorporate safety requirements following the required state regulations without discrimination. This is to ensure the health and safety of the individuals.  Each individual will receive an appropriate staffing structure as specified in the individual’s Person-Centered Plan (PCP).'
       ],
       extendedInfo: {
         title: 'Supported Living',
-        image: 'src/assets/caregiver-home-support.png',
+        image: 'src/assets/caregiverhomesupport.png',
         description: ``,
         sections: [
           

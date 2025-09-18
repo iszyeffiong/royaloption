@@ -1,8 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Target, Eye, Heart, Users, Accessibility, Award } from 'lucide-react';
 import aboutTeamImage from '@/assets/about-community.png';
-import familyConsultationImage from '@/assets/family-consultation.png';
-import caregiverSupportImage from '@/assets/caregiver-home-support.png';
+import familyConsultationImage from '@/assets/familyconsultation.png';
+import caregiverSupportImage from '@/assets/caregiverhomesupport.png';
 import FacilitiesGallery from '@/components/FacilitiesGallery';
 
 import facilityExterior from '@/assets/facility-exterior.png';

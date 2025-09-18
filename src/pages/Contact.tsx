@@ -7,7 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
 import contactImage from '@/assets/contact-office.png';
-import familyConsultationImage from '@/assets/family-consultation.png';
+import familyConsultationImage from '@/assets/familyconsultation.png';
 import {
   Accordion,
   AccordionContent,

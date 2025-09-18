@@ -3,17 +3,20 @@ import { motion } from 'framer-motion';
 import Masonry from 'react-masonry-css';
 
 // Import all facility images
-import facilityExterior from '@/assets/facility-exterior.jpg';
-import facilityCommonRoom from '@/assets/facility-common-room.jpg';
-import facilityKitchen from '@/assets/facility-kitchen.jpg';
-import facilityBedroom from '@/assets/facility-bedroom.jpg';
-import facilityBathroom from '@/assets/facility-bathroom.jpg';
-import facilityActivityRoom from '@/assets/facility-activity-room.jpg';
+
 import rop2 from '@/assets/rop2.png';
 import rop3 from '@/assets/rop3.png';
 import rop4 from '@/assets/rop4.png';
 import rop from '@/assets/rop.png';
-import rop5 from '@/assets/rop5.jpg';
+import familyconsultation from '@/assets/familyconsultation.png';
+import rop5 from '@/assets/rop5.png';
+import independentliving from '@/assets/independentliving.png';
+import communityactivities from '@/assets/communityactivities.png';
+import caregiverhomesupport from '@/assets/caregiverhomesupport.png';
+import { c } from 'node_modules/framer-motion/dist/types.d-Cjd591yU';
+
+
+
 
 interface FacilityItem {
   image: string;
@@ -54,7 +57,7 @@ const facilityItems: FacilityItem[] = [
     aspect: 1.5
   },
   {
-    image: "http://192.168.12.15:8080/src/assets/family-consultation.png",
+    image: familyconsultation,
     title: '',
     alt: 'Caregiver and resident sharing a joyful moment',
     width: 1920,
@@ -62,7 +65,7 @@ const facilityItems: FacilityItem[] = [
     aspect: 1.5
   },
   {
-    image: "http://192.168.12.15:8080/src/assets/independent-living.png",
+    image: independentliving,
     title: '',
     alt: 'Bright and welcoming community living area',
     width: 1920,
@@ -70,7 +73,7 @@ const facilityItems: FacilityItem[] = [
     aspect: 1.5
   },
   {
-    image: "http://192.168.12.15:8080/src/assets/caregiver-home-support.png",
+    image: caregiverhomesupport,
     title: '',
     alt: 'Well-equipped therapy and rehabilitation room',
     width: 1920,
@@ -86,7 +89,7 @@ const facilityItems: FacilityItem[] = [
     aspect: 1.5
   },
   {
-    image: "http://192.168.12.15:8080/src/assets/community-activities.png",
+    image: communityactivities,
     title: '',
     alt: 'Caregiver providing meal assistance to elderly resident in comfortable setting',
     width: 1920,
