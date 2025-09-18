@@ -65,7 +65,7 @@ const Navigation = () => {
             <Button 
               variant="premium" 
               size="sm"
-              onClick={() => handleNavigation('/get-started')}
+              onClick={() => handleNavigation('/contact')}
             >
               Get Started
             </Button>
@@ -104,7 +104,7 @@ const Navigation = () => {
                   variant="premium" 
                   size="sm" 
                   className="w-full"
-                  onClick={() => handleNavigation('/get-started')}
+                  onClick={() => handleNavigation('/contact')}
                 >
                   Get Started
                 </Button>
