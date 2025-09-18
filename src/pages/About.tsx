@@ -78,9 +78,8 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed">
-                  To empower individuals with intellectual and developmental disabilities to live fulfilling, 
-                  independent lives through person-centered support services. We are committed to promoting 
-                  dignity, choice, and community integration while providing the highest quality care and support.
+                  Royal Options Inc. is committed to delivering high-quality services to participants with 
+                  intellectual and developmental disabilities, tailored to their preferences, and empowering them to lead fulfilling lives within the community of their choice.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -92,9 +91,7 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base leading-relaxed">
-                  To be a leading provider of disability support services, recognized for our commitment to 
-                  person-centered care and innovative approaches. We envision a world where every individual 
-                  with disabilities has the support they need to achieve their dreams and live independently.
+                  To provide quality services to individuals with intellectual and developmental disabilities in compliance with the regulations to enable them to have full lives in their preferred community.
                 </CardDescription>
               </CardContent>
             </Card>

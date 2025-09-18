@@ -30,8 +30,8 @@ interface FacilitiesGalleryProps {
 
 const facilityItems: FacilityItem[] = [
   {
-    image: 'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289',
-    title: 'Compassionate Care',
+    image: rop4,
+    title: '',
     alt: 'Caring nurse assisting elderly resident with genuine warmth',
     width: 1920,
     height: 1280,
@@ -39,7 +39,7 @@ const facilityItems: FacilityItem[] = [
   },
   {
     image: rop2,
-    title: 'Personalized Meal Service',
+    title: '',
     alt: 'Caregiver providing meal assistance to elderly resident in comfortable setting',
     width: 1920,
     height: 1280,
@@ -47,31 +47,31 @@ const facilityItems: FacilityItem[] = [
   },
   {
     image: rop3,
-    title: 'Mobility Support',
+    title: '',
     alt: 'Professional caregiver helping elderly resident with wheelchair transfer',
     width: 1920,
     height: 1280,
     aspect: 1.5
   },
   {
-    image: rop4,
-    title: 'Social Care',
+    image: "http://192.168.12.15:8080/src/assets/pick.webp",
+    title: '',
     alt: 'Caregiver and resident sharing a joyful moment',
     width: 1920,
     height: 1280,
     aspect: 1.5
   },
   {
-    image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3',
-    title: 'Modern Living Spaces',
+    image: "http://192.168.12.15:8080/src/assets/independent-living.jpg",
+    title: '',
     alt: 'Bright and welcoming community living area',
     width: 1920,
     height: 1280,
     aspect: 1.5
   },
   {
-    image: 'https://images.unsplash.com/photo-1512678080530-7760d81faba6',
-    title: 'Therapy Facilities',
+    image: "http://192.168.12.15:8080/src/assets/caregiver-home-support.jpg",
+    title: '',
     alt: 'Well-equipped therapy and rehabilitation room',
     width: 1920,
     height: 1280,
@@ -79,15 +79,15 @@ const facilityItems: FacilityItem[] = [
   },
   {
     image: rop,
-    title: 'Professional Care',
+    title: '',
     alt: 'Healthcare professional providing personalized care to elderly resident',
     width: 1920,
     height: 1280,
     aspect: 1.5
   },
   {
-    image: rop2,
-    title: 'Personalized Meal Service',
+    image: "http://192.168.12.15:8080/src/assets/community-activities.jpg",
+    title: '',
     alt: 'Caregiver providing meal assistance to elderly resident in comfortable setting',
     width: 1920,
     height: 1280,
@@ -95,7 +95,7 @@ const facilityItems: FacilityItem[] = [
   },    
   {
     image: rop5,
-    title: 'Daily Health Assessment',
+    title: '',
     alt: 'Healthcare provider conducting routine health check with elderly resident',
     width: 1920,
     height: 1280,
@@ -120,9 +120,9 @@ const FacilitiesGallery = ({ showTitle = true }: FacilitiesGalleryProps) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-4xl font-bold text-primary mb-4">Our Facilities</h2>
+            <h2 className="text-4xl font-bold text-primary mb-4">Gallery</h2>
             <p className="text-xl text-muted-foreground">
-              Take a look at our modern, accessible facilities designed for comfort and independence.
+              Take a look at our modern, accessible gallery designed for comfort and independence.
             </p>
           </motion.div>
         )}
