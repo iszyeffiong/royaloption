@@ -40,7 +40,7 @@ const Navigation = () => {
             className="flex items-center space-x-2 group cursor-pointer"
           >
             <img 
-              src="/src/assets/logo.jpg" 
+              src="/src/assets/logo.png" 
               alt="" 
               className="h-8 w-auto group-hover:opacity-90 transition-premium"
             />

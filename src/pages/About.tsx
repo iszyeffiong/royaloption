@@ -1,16 +1,16 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Target, Eye, Heart, Users, Accessibility, Award } from 'lucide-react';
-import aboutTeamImage from '@/assets/about-community.jpg';
-import familyConsultationImage from '@/assets/family-consultation.jpg';
-import caregiverSupportImage from '@/assets/caregiver-home-support.jpg';
+import aboutTeamImage from '@/assets/about-community.png';
+import familyConsultationImage from '@/assets/family-consultation.png';
+import caregiverSupportImage from '@/assets/caregiver-home-support.png';
 import FacilitiesGallery from '@/components/FacilitiesGallery';
 
-import facilityExterior from '@/assets/facility-exterior.jpg';
-import facilityCommonRoom from '@/assets/facility-common-room.jpg';
-import facilityKitchen from '@/assets/facility-kitchen.jpg';
-import facilityBedroom from '@/assets/facility-bedroom.jpg';
-import facilityBathroom from '@/assets/facility-bathroom.jpg';
-import facilityActivityRoom from '@/assets/facility-activity-room.jpg';
+import facilityExterior from '@/assets/facility-exterior.png';
+import facilityCommonRoom from '@/assets/facility-common-room.png';
+import facilityKitchen from '@/assets/facility-kitchen.png';
+import facilityBedroom from '@/assets/facility-bedroom.png';
+import facilityBathroom from '@/assets/facility-bathroom.png';
+import facilityActivityRoom from '@/assets/facility-activity-room.png';
 
 const About = () => {
   const values = [

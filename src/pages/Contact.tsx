@@ -6,8 +6,8 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
-import contactImage from '@/assets/contact-office.jpg';
-import familyConsultationImage from '@/assets/family-consultation.jpg';
+import contactImage from '@/assets/contact-office.png';
+import familyConsultationImage from '@/assets/family-consultation.png';
 import {
   Accordion,
   AccordionContent,

@@ -13,7 +13,7 @@ import {
   CheckCircle
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import servicesImage from '@/assets/services-support.jpg';
+import servicesImage from '@/assets/services-support.png';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import {
@@ -39,7 +39,7 @@ const Services = () => {
     {
       icon: HomeIcon,
       title: 'Community Living (Group Home)',
-      image: 'src/assets/about-community.jpg',
+      image: 'src/assets/about-community.png',
       details: [
         'Royal Options will hire Direct Support Professionals (DSPs) who will help participants integrate and enroll into community leagues, libraries, clubs, and organizations of their choosing for personal growth and development, to learn a variety of skills.'
       ],
@@ -63,13 +63,13 @@ const Services = () => {
     {
       icon: Heart,
       title: 'Supported Living',
-      image: 'src/assets/caregiver-home-support.jpg',
+      image: 'src/assets/caregiver-home-support.png',
       details: [
         'Our Supported Living services incorporate safety requirements following the required state regulations without discrimination. This is to ensure the health and safety of the individuals.  Each individual will receive an appropriate staffing structure as specified in the individual’s Person-Centered Plan (PCP).'
       ],
       extendedInfo: {
         title: 'Supported Living',
-        image: 'src/assets/caregiver-home-support.jpg',
+        image: 'src/assets/caregiver-home-support.png',
         description: ``,
         sections: [
           
@@ -94,12 +94,12 @@ const Services = () => {
     {
       icon: UserCheck,
       title: 'Personal Support',
-      image: 'src/assets/nursing-support.jpg',
+      image: 'src/assets/nursing-support.png',
       details: [
       ],
       extendedInfo: {
         title: 'Personal Support',
-        image: 'src/assets/nursing-support.jpg',
+        image: 'src/assets/nursing-support.png',
         sections: [
           {
             heading: 'Our Services at Royal Options Inc.',
@@ -336,7 +336,7 @@ const Services = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <img
-                src="/src/assets/about-community.jpg"
+                src="/src/assets/about-community.png"
                 alt="Community Development Services"
                 className="w-full h-full object-cover"
               />

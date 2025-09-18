@@ -3,9 +3,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { ArrowRight, Home as HomeIcon, Heart, Users, Award, Star, Phone, Mail } from 'lucide-react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import heroImage from '@/assets/hero-care.jpg';
-import communityActivitieImages from '@/assets/communityActivitieImages.jpg';
-import caregiverSupportImage from '@/assets/caregiver-home-support.jpg';
+import heroImage from '@/assets/hero-care.png';
+import communityActivitieImages from '@/assets/communityActivitieImages.png';
+import caregiverSupportImage from '@/assets/caregiver-home-support.png';
 import FacilitiesGallery from '@/components/FacilitiesGallery';
 
 
