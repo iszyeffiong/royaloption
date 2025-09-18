@@ -3,17 +3,17 @@ import { motion } from 'framer-motion';
 import Masonry from 'react-masonry-css';
 
 // Import all facility images
-import facilityExterior from '@/assets/facility-exterior.png';
-import facilityCommonRoom from '@/assets/facility-common-room.png';
-import facilityKitchen from '@/assets/facility-kitchen.png';
-import facilityBedroom from '@/assets/facility-bedroom.png';
-import facilityBathroom from '@/assets/facility-bathroom.png';
-import facilityActivityRoom from '@/assets/facility-activity-room.png';
+import facilityExterior from '@/assets/facility-exterior.jpg';
+import facilityCommonRoom from '@/assets/facility-common-room.jpg';
+import facilityKitchen from '@/assets/facility-kitchen.jpg';
+import facilityBedroom from '@/assets/facility-bedroom.jpg';
+import facilityBathroom from '@/assets/facility-bathroom.jpg';
+import facilityActivityRoom from '@/assets/facility-activity-room.jpg';
 import rop2 from '@/assets/rop2.png';
 import rop3 from '@/assets/rop3.png';
 import rop4 from '@/assets/rop4.png';
 import rop from '@/assets/rop.png';
-import rop5 from '@/assets/rop5.png';
+import rop5 from '@/assets/rop5.jpg';
 
 interface FacilityItem {
   image: string;
@@ -54,7 +54,7 @@ const facilityItems: FacilityItem[] = [
     aspect: 1.5
   },
   {
-    image: "http://192.168.12.15:8080/src/assets/pick.webp",
+    image: "http://192.168.12.15:8080/src/assets/family-consultation.png",
     title: '',
     alt: 'Caregiver and resident sharing a joyful moment',
     width: 1920,
