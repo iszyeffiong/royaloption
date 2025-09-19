@@ -17,6 +17,10 @@ import servicesImage from '@/assets/services-support.png';
 import nursingImage from '@/assets/nursing-support.png';
 import independentLivingImage from '@/assets/independentliving.png';
 import groupHomeImage from '@/assets/grouphomeactivities.png';
+import respiteImg from '@/assets/rop2.png';
+import personalSupportImg from '@/assets/rop3.png';
+import transportationImg from '@/assets/transportation.png';
+import communityDevImg from '@/assets/communityactivities.png';
 
 const Services = () => {
   const mainServices = [
@@ -62,22 +66,50 @@ const Services = () => {
     {
       icon: Clock,
       title: 'Respite Care',
-      description: 'Temporary support for families during planned absences or emergencies'
+      description: 'Temporary support for families during planned absences or emergencies. Our respite care provides peace of mind and ensures your loved one receives quality care while you take a break.',
+      features: [
+        'Flexible scheduling (day, night, weekends)',
+        'Experienced, compassionate staff',
+        'Safe and supportive environment',
+        'Emergency and planned coverage'
+      ],
+      image: respiteImg
     },
     {
       icon: UserCheck,
       title: 'Personal Support',
-      description: 'Help with daily living activities and personal care in the home'
+      description: 'Help with daily living activities and personal care in the home. We tailor our support to each individual’s unique needs and preferences.',
+      features: [
+        'Assistance with bathing, dressing, and grooming',
+        'Meal preparation and feeding support',
+        'Medication reminders',
+        'Light housekeeping'
+      ],
+      image: personalSupportImg
     },
     {
       icon: Car,
       title: 'Transportation Services',
-      description: 'Safe community outings and transportation to appointments'
+      description: 'Safe community outings and transportation to appointments. Our reliable drivers ensure timely and comfortable travel for all clients.',
+      features: [
+        'Accessible vehicles for all mobility needs',
+        'Transportation to medical and social appointments',
+        'Community outings and events',
+        'Door-to-door service'
+      ],
+      image: transportationImg
     },
     {
       icon: GraduationCap,
       title: 'Community Development',
-      description: 'Skill-building programs and social integration opportunities'
+      description: 'Skill-building programs and social integration opportunities. We help individuals connect, learn, and grow within their communities.',
+      features: [
+        'Life skills and vocational training',
+        'Social and recreational activities',
+        'Peer support groups',
+        'Community volunteering opportunities'
+      ],
+      image: communityDevImg
     }
   ];
 
@@ -101,7 +133,7 @@ const Services = () => {
       <section className="py-20 bg-gradient-subtle">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">Core Services</h2>
+            <h2 className="text-4xl font-bold text-primary mb-4">Our Services</h2>
             <p className="text-xl text-muted-foreground">
               Essential support services tailored to individual needs and goals
             </p>
@@ -180,24 +212,46 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-primary mb-4">Additional Services</h2>
-            <p className="text-xl text-muted-foreground">
-              Complementary services to support your complete journey to independence
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Our additional services are designed to provide holistic support, enhance independence, and promote community engagement for every individual we serve.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {additionalServices.map((service, index) => (
-              <Card key={index} className="text-center shadow-elegant hover:shadow-premium transition-premium group">
+              <Card key={index} className="text-center shadow-elegant hover:shadow-premium transition-premium group flex flex-col h-full">
                 <CardHeader>
+                  {/* Image on top */}
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-32 object-cover rounded-t-lg mb-3"
+                  />
                   <div className="w-12 h-12 mx-auto mb-3 gradient-gold rounded-lg flex items-center justify-center group-hover:scale-110 transition-premium">
                     <service.icon className="h-6 w-6 text-accent-foreground" />
                   </div>
                   <CardTitle className="text-lg">{service.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-sm">
+                <CardContent className="flex-1 flex flex-col">
+                  <CardDescription className="text-sm mb-4">
                     {service.description}
                   </CardDescription>
+                  <ul className="text-left mb-4 space-y-2">
+                    {service.features.map((feature, i) => (
+                      <li key={i} className="flex items-center space-x-2">
+                        <CheckCircle className="h-4 w-4 text-secondary flex-shrink-0" />
+                        <span className="text-sm text-muted-foreground">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <Button 
+                    variant="premium" 
+                    size="sm" 
+                    asChild
+                    className="mt-auto"
+                  >
+                    <Link to="/contact">Request Info</Link>
+                  </Button>
                 </CardContent>
               </Card>
             ))}
