@@ -23,6 +23,13 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import aboutCommunityImg from '@/assets/about-community.png';
+import communityLivingImg from '@/assets/Community Living.png';
+import caregiverHomeSupportImg from '@/assets/caregiverhomesupport.png';
+import nursingSupportImg from '@/assets/nursing-support.png';
+import ropImg from '@/assets/rop.png';
+import rop3Img from '@/assets/rop3.png';
+import transportationImg from '@/assets/transportation.png';
 
 const Services = () => {
   const [expandedRow, setExpandedRow] = useState<number | null>(null);
@@ -39,13 +46,13 @@ const Services = () => {
     {
       icon: HomeIcon,
       title: 'Community Living (Group Home)',
-      image: 'src/assets/about-community.png',
+      image: aboutCommunityImg,
       details: [
         'Royal Options will hire Direct Support Professionals (DSPs) who will help participants integrate and enroll into community leagues, libraries, clubs, and organizations of their choosing for personal growth and development, to learn a variety of skills.'
       ],
       extendedInfo: {
         title: 'Community Living (Group Home)',
-        image: 'src/assets/Community Living.png',
+        image: communityLivingImg,
         description: ``,
         sections: [
           {
@@ -63,13 +70,13 @@ const Services = () => {
     {
       icon: Heart,
       title: 'Supported Living',
-      image: 'src/assets/caregiverhomesupport.png',
+      image: caregiverHomeSupportImg,
       details: [
         'Our Supported Living services incorporate safety requirements following the required state regulations without discrimination. This is to ensure the health and safety of the individuals.  Each individual will receive an appropriate staffing structure as specified in the individual’s Person-Centered Plan (PCP).'
       ],
       extendedInfo: {
         title: 'Supported Living',
-        image: 'src/assets/caregiverhomesupport.png',
+        image: caregiverHomeSupportImg,
         description: ``,
         sections: [
           
@@ -94,12 +101,12 @@ const Services = () => {
     {
       icon: UserCheck,
       title: 'Personal Support',
-      image: 'src/assets/nursing-support.png',
+      image: nursingSupportImg,
       details: [
       ],
       extendedInfo: {
         title: 'Personal Support',
-        image: 'src/assets/nursing-support.png',
+        image: nursingSupportImg,
         sections: [
           {
             heading: 'Our Services at Royal Options Inc.',
@@ -111,12 +118,12 @@ const Services = () => {
     {
       icon: Stethoscope,
       title: 'Nursing Support Services',
-      image: 'src/assets/rop.png',
+      image: ropImg,
       details: [
       ],
       extendedInfo: {
         title: 'Nursing Support Services',
-        image: 'src/assets/rop.png',
+        image: ropImg,
         description: ``,
         sections: [
         
@@ -130,13 +137,13 @@ const Services = () => {
     {
       icon: Clock,
       title: 'Respite Care Services',
-      image: 'src/assets/rop3.png',
+      image: rop3Img,
       details: [
         'Royal Options will provide qualified staff to deliver respite care and support when the primary caregiver/ family has an unplanned life event, planned activities, or emergency that takes them away from the responsibility of caring for the participant.'
       ],
       extendedInfo: {
         title: 'Respite Care Services',
-        image: 'src/assets/rop3.png',
+        image: rop3Img,
         description: `Respite Care offers short-term relief to primary caregivers while ensuring participants continue to receive quality support.`,
         sections: [
           {
@@ -153,13 +160,13 @@ const Services = () => {
     {
       icon: Car,
       title: 'Transportation Services',
-      image: 'src/assets/transportation.png',
+      image: transportationImg,
       details: [
         'Our transportation services are designed specially to improve the participant\'s and the family caregiver’s ability to independently access community activities in response to needs identified in the participant’s Person-Centered Plan (PCP).'
       ],
       extendedInfo: {
         title: 'Transportation Services',
-        image: 'src/assets/transportation.png',
+        image: transportationImg,
         description: `Transportation Services help participants and caregivers reach community activities, appointments, and other destinations safely and reliably.`,
         sections: [
           {
@@ -336,7 +343,7 @@ const Services = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <img
-                src="/src/assets/about-community.png"
+                src={aboutCommunityImg}
                 alt="Community Development Services"
                 className="w-full h-full object-cover"
               />
